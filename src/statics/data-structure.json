@@ -1,0 +1,40 @@
+{
+  "users": {
+    "USERSID1": {
+      "name": "eytan",
+      "email": "eytan@gmail.com",
+      "online": true
+    },
+    "USERSID2": {
+      "name": "joni",
+      "email": "joni@gmail.com",
+      "online": true
+    }
+  },
+  "chats": {
+    "USERID1": {
+      "USERID2": {
+        "MESSAGEID1":{
+          "text": "hey this is a test",
+          "from": "them"
+        },
+        "MESSAGEID2":{
+          "text": "the test recived",
+          "from": "me"
+        }
+      }
+    },
+    "USERID2": {
+      "USERID1": {
+        "MESSAGEID1":{
+          "text": "hey this is a test",
+          "from": "me"
+        },
+        "MESSAGEID2":{
+          "text": "the test recived",
+          "from": "them"
+        }
+      }
+    }
+  }
+}
